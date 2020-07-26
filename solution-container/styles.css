@@ -1,0 +1,120 @@
+body {
+	font-size: 16px;
+	color: white;
+	background-color: white;
+}
+* {
+	box-sizing: border-box;
+}
+ 
+ /* Header **/
+
+ #header-nav {
+ 	background-color: grey;
+ 	border: 0;
+ 	border-color: solid black;
+ 	border-radius: 0;
+ }
+ .navbar-brand h1 { /*restuarent name*/
+ 	font-family: 'lora', serif;
+ 	font-weight: bold;
+ 	text-shadow: 1px 1px 1px #222;
+ 	margin-left: 0;
+ 	line-height: .75;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ }
+ .navbar-brand a:hover, .navbar-brand a:focus {
+ 	text-decoration: none;
+ } /*button**/
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+ 	border: 1px solid #61122f;
+ }
+ .navbar-header button.navbar-toggle {
+ 	clear: both;
+ 	margin-top: -30px;
+ }
+ #nav-list {
+ 	margin-top: 10px;
+ }
+ #nav-list a {
+ 	color: black;
+ 	text-align: center;
+ }
+ #nav-list a:hover {
+ 	background: blue;
+ }
+ p {
+ 	padding: 10px;
+ 	margin: 0;
+ }
+ section {
+	border:	1px solid black;
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+	margin: 10px;
+	padding: 10px;
+	background-color: grey;
+}
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	overflow: auto;
+}
+ #h2 {
+ 	color:black;
+ 	font-weight: bolder;
+ }
+ #chicken {
+ 	color: black;
+ 	text-align: center;
+ 	border: 0;
+ 	font-weight: bold;
+ }
+ #chicken-div {
+ 	color: black;
+  	margin-bottom: 20px;
+ }
+#beef {
+	color: black;
+	text-align: center;
+ 	border: 0;
+ 	font-weight: bold;
+
+}
+#beef-div {
+	color: black;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+#sushi {
+	color: black;
+	text-align: center;
+ 	border: 0;
+ 	font-weight: bold;
+}
+#sushi-div {
+	color: black;
+	margin-bottom: 20px;
+}
+ /* large screensize **/
+ @media only screen and (min-width: 1200px) {
+
+ }	
+ @media (min-width: 992px) and (max-width: 1199px) {
+ 	
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+
+ }
+ 
